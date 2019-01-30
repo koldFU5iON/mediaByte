@@ -11,6 +11,10 @@ app.get('/', (req, res, next) =>{
   res.render('index', {title: 'Media Byte', message: 'Here we go!'})
 })
 
+app.get('/urlparse', (req, res, next) => {
+  res.render('urlparse')
+})
+
 app.listen(port, () => {
   console.log(`Now listening on ${port}`)
 });
