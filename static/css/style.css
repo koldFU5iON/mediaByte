@@ -1,8 +1,13 @@
 body {
-  background-color: black;
+  background-color: #64aeb5;
+  font-family: Helvetica;
   font-color: blue;
-  font-style: italic;
+  color: #232424;
+}
+
+h1 {
+
 }
 p {
-  font-style: italic;
+  
 }
